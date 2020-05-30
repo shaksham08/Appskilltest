@@ -147,3 +147,29 @@ a {
   border: 1px solid black;
   text-align: center;
 }
+
+/**reffered to dev.to for this **/
+.checkbox {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox > span {
+  color: #34495e;
+  padding: 0.5rem 0.25rem;
+  margin: 5px 45px;
+}
+
+.checkbox > input {
+  height: 25px;
+  width: 25px;
+  appearance: none;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-top: 18px;
+  margin-left: 50px;
+}
