@@ -1,5 +1,5 @@
-//Using Propmt module to take the input
-//COmmand to install it :--   "npm install prompt-sync"
+//Using Prompt module to take the input
+//Command to install it :--   "npm install prompt-sync"
 
 //defining the prompt
 const prompt = require("prompt-sync")();
